@@ -2,8 +2,13 @@ package animal;
 
 public interface Aquatico extends Animal{
 
-	public static void nadar(){
+	default void nadar(){
 		System.out.println("Estou nadando!");
+	}
+
+	@Override
+	default void locomover() {
+		nadar();
 	}
 	
 	

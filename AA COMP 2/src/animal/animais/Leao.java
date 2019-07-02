@@ -25,11 +25,6 @@ public class Leao implements Terrestre{
 	}
 
 	@Override
-	public void locomover() {
-		Terrestre.andar();
-	}
-
-	@Override
 	public Sexo getSexo() {
 		return this.sexo;
 	}

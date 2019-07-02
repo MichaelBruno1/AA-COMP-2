@@ -24,11 +24,6 @@ public class PeixeBoi implements Aquatico{
 	}
 
 	@Override
-	public void locomover() {
-		Aquatico.nadar();
-	}
-
-	@Override
 	public Sexo getSexo() {
 		return this.sexo;
 	}
