@@ -26,11 +26,6 @@ public class Foca implements Aquatico{
 	}
 
 	@Override
-	public void locomover() {
-		Aquatico.nadar();
-	}
-
-	@Override
 	public Sexo getSexo() {
 		return this.sexo;
 	}

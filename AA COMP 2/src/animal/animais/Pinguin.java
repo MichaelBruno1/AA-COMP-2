@@ -27,12 +27,6 @@ public class Pinguin implements Anfibio{
 	}
 
 	@Override
-	public void locomover() {
-		Aquatico.nadar();
-		Terrestre.andar();
-	}
-
-	@Override
 	public Sexo getSexo() {
 		return this.sexo;
 	}
