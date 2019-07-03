@@ -22,9 +22,9 @@ import zoologico.Zoologico;
 
 public class Main {
 	public static void main(String args[]){
-	//	testeDeAnimais();
-	//	testeInstalacao();
-	//	testeInserirAnimais();		
+		testeDeAnimais();
+		testeInstalacao();
+		testeInserirAnimais();		
 		testaZoologico();
 	}
 	
